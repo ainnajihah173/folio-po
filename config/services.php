@@ -31,4 +31,11 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'folio' => [
+        'api_url' => env('FOLIO_API_URL', 'https://folio-snapshot-okapi.dev.folio.org/'),
+        'tenant' => env('FOLIO_TENANT_ID', 'diku'),
+        'username' => env('FOLIO_USERNAME', 'diku_admin'),
+        'password' => env('FOLIO_PASSWORD', 'admin'),
+    ],
+
 ];
